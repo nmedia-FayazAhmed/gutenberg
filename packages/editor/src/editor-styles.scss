@@ -94,13 +94,19 @@ h6 {
 p {
 	font-size: inherit;
 	line-height: inherit;
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-top: $default-block-margin;
+	margin-bottom: $default-block-margin;
+}
+
+pre {
+	margin-top: $default-block-margin;
+	margin-bottom: $default-block-margin;
 }
 
 ul,
 ol {
-	margin: 1em 0;
+	margin-top: $default-block-margin;
+	margin-bottom: $default-block-margin;
 	padding: inherit;
 
 	li {
